@@ -49,7 +49,7 @@ public class CompanyTest {
     @DisplayName("Healthplan sınıf değişkenleri doğru tipte mi ?")
     @Test
     public void testHealthPlanInstanceTypes() throws NoSuchFieldException {
-        assertThat(healthplan.getId(), instanceOf(Integer.class));
+        assertThat(healthplan.getId(), instanceOf(Long.class));
         assertThat(healthplan.getName(), instanceOf(String.class));
         assertThat(healthplan.getPlan(), instanceOf(Plan.class));
     }
