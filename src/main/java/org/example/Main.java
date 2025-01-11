@@ -8,7 +8,7 @@ public class Main {
     }
 
     public static void performOperations() {
-        Healthplan healthplan = new Healthplan(1L, "Health Plan 1", Plan.BASIC);
+        Healthplan healthplan = new Healthplan(1, "Health Plan 1", Plan.BASIC);
         System.out.println("Health Plan created: " + healthplan);
 
         String[] healthPlanArray = new String[3];  // Health plans array for Employee
